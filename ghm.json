@@ -1,0 +1,34 @@
+{
+    "version": "1.0.0",
+    "apps": {
+        "AppName": {
+            "name": "Display Name",
+            "description": "Description",
+            "color": "#HEX_COLOR",
+            "icon": "URL_TO_ICON",
+            "banner": "URL_TO_BANNER",
+            "categories": {
+                "CategoryName": {
+                    "files": [
+                        {
+                            "name": "File Name",
+                            "description": "Description",
+                            "version": "1.0.0",
+                            "size": "100 MB",
+                            "date": "2024-01-01",
+                            "hash_md5": "MD5_HASH",
+                            "languages": ["en", "fr"],
+                            "extension": ".zip",
+                            "downloads": 1000,
+                            "available": true,
+                            "sources": {
+                                "Google Drive": "URL",
+                                "Mega": "URL"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
