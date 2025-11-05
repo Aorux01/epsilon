@@ -1,29 +1,89 @@
 {
     "version": "1.0.0",
     "apps": {
-        "AppName": {
-            "name": "Display Name",
-            "description": "Description",
-            "color": "#HEX_COLOR",
-            "icon": "URL_TO_ICON",
-            "banner": "URL_TO_BANNER",
+        "CyberEngineTweaks": {
+            "name": "Cyber Engine Tweaks",
+            "description": "Modding framework for Cyberpunk 2077",
+            "color": "#FF6B00",
+            "icon": "https://example.com/icon.png",
+            "banner": "https://example.com/banner.png",
             "categories": {
-                "CategoryName": {
+                "downloads": {
                     "files": [
                         {
-                            "name": "File Name",
-                            "description": "Description",
-                            "version": "1.0.0",
-                            "size": "100 MB",
-                            "date": "2024-01-01",
-                            "hash_md5": "MD5_HASH",
-                            "languages": ["en", "fr"],
+                            "name": "CET Main Package",
+                            "description": "Core framework with all essential features",
+                            "version": "1.25.0",
+                            "size": "15.2 MB",
+                            "date": "2024-01-15",
+                            "hash_md5": "a1b2c3d4e5f678901234567890123456",
+                            "languages": ["en", "fr", "de", "es"],
                             "extension": ".zip",
-                            "downloads": 1000,
-                            "available": true,
                             "sources": {
-                                "Google Drive": "URL",
-                                "Mega": "URL"
+                                "GitHub Release": {
+                                    "url": "https://github.com/author/cet/releases/latest",
+                                    "available": true
+                                },
+                                "Mirror 1": {
+                                    "url": "https://mirror1.com/cet/latest",
+                                    "available": true
+                                },
+                                "Mirror 2": {
+                                    "url": "https://mirror2.org/cet/package",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "tools": {
+                    "files": [
+                        {
+                            "name": "CET Configuration Tool",
+                            "description": "GUI tool for configuring Cyber Engine Tweaks",
+                            "version": "2.1.0",
+                            "size": "8.7 MB",
+                            "date": "2024-01-10",
+                            "hash_md5": "f1e2d3c4b5a698701234567890123456",
+                            "languages": ["en"],
+                            "extension": ".exe",
+                            "sources": {
+                                "GitHub": {
+                                    "url": "https://github.com/author/cet-tool/releases",
+                                    "available": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "Reshade": {
+            "name": "ReShade",
+            "description": "Advanced post-processing injector",
+            "color": "#9C27B0",
+            "icon": "https://example.com/reshade.png",
+            "categories": {
+                "shaders": {
+                    "files": [
+                        {
+                            "name": "ReShade Full Package",
+                            "description": "Complete ReShade installation with effects",
+                            "version": "5.9.0",
+                            "size": "45.3 MB",
+                            "date": "2024-01-12",
+                            "hash_md5": "b2c3d4e5f6a789012345678901234567",
+                            "languages": ["en", "fr", "de"],
+                            "extension": ".exe",
+                            "sources": {
+                                "Official Site": {
+                                    "url": "https://reshade.me/download",
+                                    "available": true
+                                },
+                                "Alternative": {
+                                    "url": "https://mirror.reshade.com/latest",
+                                    "available": true
+                                }
                             }
                         }
                     ]
