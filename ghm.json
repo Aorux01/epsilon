@@ -1,87 +1,908 @@
 {
-    "version": "1.0.0",
+    "version": "2.4.0",
     "apps": {
-        "CyberEngineTweaks": {
-            "name": "Cyber Engine Tweaks",
-            "description": "Modding framework for Cyberpunk 2077",
-            "color": "#FF6B00",
-            "icon": "https://example.com/icon.png",
-            "banner": "https://example.com/banner.png",
+        "FortniteBuildArchive": {
+            "name": "Fortnite Build Archive",
+            "description": "La plus grande archive de builds de jeu Fortnite, mise à jour et organisée par saison. Maintenant avec la structure de données complète.",
+            "color": "#0078D4",
+            "icon": "Unknown",
+            "banner": "Unknown",
             "categories": {
-                "downloads": {
+                "Saison 1 (Chapter 1)": {
                     "files": [
                         {
-                            "name": "CET Main Package",
-                            "description": "Core framework with all essential features",
-                            "version": "1.25.0",
-                            "size": "15.2 MB",
-                            "date": "2024-01-15",
-                            "hash_md5": "a1b2c3d4e5f678901234567890123456",
-                            "languages": ["en", "fr", "de", "es"],
-                            "extension": ".zip",
+                            "name": "Fortnite Build - 1.7.2-CL-3700114",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.7.2",
+                            "size": "Unknown",
+                            "date": "2017-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
                             "sources": {
-                                "GitHub Release": {
-                                    "url": "https://github.com/author/cet/releases/latest",
-                                    "available": true
-                                },
-                                "Mirror 1": {
-                                    "url": "https://mirror1.com/cet/latest",
-                                    "available": true
-                                },
-                                "Mirror 2": {
-                                    "url": "https://mirror2.org/cet/package",
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.7.2",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.8-CL-3724489",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.8",
+                            "size": "Unknown",
+                            "date": "2017-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.8",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.8.1-CL-3729133",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.8.1",
+                            "size": "Unknown",
+                            "date": "2017-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.8.1",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.8.2-CL-3741772",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.8.2",
+                            "size": "Unknown",
+                            "date": "2017-11-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.8.2",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.9-CL-3757339",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.9",
+                            "size": "Unknown",
+                            "date": "2017-11-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.9",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.9.1-CL-3775276",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.9.1",
+                            "size": "Unknown",
+                            "date": "2017-11-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.9.1",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.10-CL-3790078",
+                            "description": "Build de la Saison 1 référencé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.10",
+                            "size": "Unknown",
+                            "date": "2017-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.10",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 1.11-CL-3807424",
+                            "description": "Dernier build identifié pour la Saison 1 trouvé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "1.11",
+                            "size": "Unknown",
+                            "date": "2017-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s1/1.11",
                                     "available": false
                                 }
                             }
                         }
                     ]
                 },
-                "tools": {
+                "Saison 2 (Chapter 1)": {
                     "files": [
                         {
-                            "name": "CET Configuration Tool",
-                            "description": "GUI tool for configuring Cyber Engine Tweaks",
+                            "name": "Fortnite Build - 2.1.0-CL-3825894",
+                            "description": "Build de la Saison 2 référencé dans les crédits. (Lien non fourni dans le document source)",
                             "version": "2.1.0",
-                            "size": "8.7 MB",
-                            "date": "2024-01-10",
-                            "hash_md5": "f1e2d3c4b5a698701234567890123456",
+                            "size": "Unknown",
+                            "date": "2018-01-XX",
+                            "hash_md5": "Unknown",
                             "languages": ["en"],
-                            "extension": ".exe",
+                            "extension": "Unknown",
+                            "available": false,
                             "sources": {
-                                "GitHub": {
-                                    "url": "https://github.com/author/cet-tool/releases",
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s2/2.1.0",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 2.3.0-CL-3840788",
+                            "description": "Dernier build identifié pour la Saison 2 trouvé dans les crédits. (Lien non fourni dans le document source)",
+                            "version": "2.3.0",
+                            "size": "Unknown",
+                            "date": "2018-02-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s2/2.3.0",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 3 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 3 (v3.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v3.x",
+                            "size": "Unknown",
+                            "date": "2018-02-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s3/v3.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 4 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Fortnite Build - 4.5-CL-4166199",
+                            "description": "Build de la Saison 4 (v4.5) référencé dans la liste des 'Small Contributors'. (Lien non fourni dans le document source)",
+                            "version": "4.5",
+                            "size": "Unknown",
+                            "date": "2018-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s4/4.5",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 5 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 5 (v5.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v5.x",
+                            "size": "Unknown",
+                            "date": "2018-07-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s5/v5.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 6 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 6 (v6.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v6.x",
+                            "size": "Unknown",
+                            "date": "2018-09-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s6/v6.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 7 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 7 (v7.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v7.x",
+                            "size": "Unknown",
+                            "date": "2018-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s7/v7.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 8 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 8 (v8.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v8.x",
+                            "size": "Unknown",
+                            "date": "2019-02-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s8/v8.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 9 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 9 (v9.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v9.x",
+                            "size": "Unknown",
+                            "date": "2019-05-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s9/v9.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 10 (Chapter 1)": {
+                    "files": [
+                        {
+                            "name": "Fortnite Build - 10.40-CL-9380822",
+                            "description": "Build de la Saison 10 (v10.40) référencé dans la liste des 'Small Contributors'. (Lien non fourni dans le document source)",
+                            "version": "10.40",
+                            "size": "Unknown",
+                            "date": "2019-09-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s10/10.40",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 11 (Chapter 2, S1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 11 (v11.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v11.x",
+                            "size": "Unknown",
+                            "date": "2019-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s11/v11.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 12 (Chapter 2, S2)": {
+                    "files": [
+                        {
+                            "name": "Fortnite Build - 12.41-CL-12905909",
+                            "description": "Build de la Saison 12 (v12.41) référencé dans la liste des 'Small Contributors'. (Lien non fourni dans le document source)",
+                            "version": "12.41",
+                            "size": "Unknown",
+                            "date": "2020-04-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s12/12.41",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Fortnite Build - 12.61-CL-1349898",
+                            "description": "Build de la Saison 12 (v12.61) référencé dans la liste des 'Small Contributors'. (Lien non fourni dans le document source)",
+                            "version": "12.61",
+                            "size": "Unknown",
+                            "date": "2020-05-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s12/12.61",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 13 (Chapter 2, S3)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 13 (v13.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v13.x",
+                            "size": "Unknown",
+                            "date": "2020-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s13/v13.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 14 (Chapter 2, S4)": {
+                    "files": [
+                        {
+                            "name": "Fortnite Build - 14.30-CL-14456520",
+                            "description": "Build de la Saison 14 (v14.30) référencé dans la liste des 'Small Contributors'. (Lien non fourni dans le document source)",
+                            "version": "14.30",
+                            "size": "Unknown",
+                            "date": "2020-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s14/14.30",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 15 (Chapter 2, S5)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 15 (v15.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v15.x",
+                            "size": "Unknown",
+                            "date": "2020-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s15/v15.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 16 (Chapter 2, S6)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 16 (v16.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v16.x",
+                            "size": "Unknown",
+                            "date": "2021-03-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s16/v16.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 17 (Chapter 2, S7)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 17 (v17.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v17.x",
+                            "size": "Unknown",
+                            "date": "2021-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s17/v17.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 18 (Chapter 2, S8)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 18 (v18.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v18.x",
+                            "size": "Unknown",
+                            "date": "2021-09-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s18/v18.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 19 (Chapter 3, S1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 19 (v19.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v19.x",
+                            "size": "Unknown",
+                            "date": "2021-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s19/v19.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 20 (Chapter 3, S2)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 20 (v20.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v20.x",
+                            "size": "Unknown",
+                            "date": "2022-03-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s20/v20.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 21 (Chapter 3, S3)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 21 (v21.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v21.x",
+                            "size": "Unknown",
+                            "date": "2022-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s21/v21.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 22 (Chapter 3, S4)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 22 (v22.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v22.x",
+                            "size": "Unknown",
+                            "date": "2022-09-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s22/v22.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 23 (Chapter 4, S1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 23 (v23.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v23.x",
+                            "size": "Unknown",
+                            "date": "2022-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s23/v23.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 24 (Chapter 4, S2)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 24 (v24.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v24.x",
+                            "size": "Unknown",
+                            "date": "2023-03-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s24/v24.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 25 (Chapter 4, S3)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 25 (v25.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v25.x",
+                            "size": "Unknown",
+                            "date": "2023-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s25/v25.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 26 (Chapter 4, S4)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 26 (v26.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v26.x",
+                            "size": "Unknown",
+                            "date": "2023-08-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s26/v26.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 27 (Chapter 5, S1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 27 (v27.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v27.x",
+                            "size": "Unknown",
+                            "date": "2023-12-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s27/v27.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 28 (Chapter 5, S2)": {
+                    "files": [
+                        {
+                            "name": "Fortnite Build - 28.10-CL-29971842",
+                            "description": "Build de la branche principale Fortnite, version 28.10. (Lien primaire disponible)",
+                            "version": "28.10",
+                            "size": "Unknown",
+                            "date": "2024-01-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": true,
+                            "sources": {
+                                "Download 1": {
+                                    "url": "https://buzzheavier.com/oi25w6dk1wlv",
                                     "available": true
                                 }
                             }
                         }
                     ]
-                }
-            }
-        },
-        "Reshade": {
-            "name": "ReShade",
-            "description": "Advanced post-processing injector",
-            "color": "#9C27B0",
-            "icon": "https://example.com/reshade.png",
-            "categories": {
-                "shaders": {
+                },
+                "Saison 29 (Chapter 5, S3)": {
                     "files": [
                         {
-                            "name": "ReShade Full Package",
-                            "description": "Complete ReShade installation with effects",
-                            "version": "5.9.0",
-                            "size": "45.3 MB",
-                            "date": "2024-01-12",
-                            "hash_md5": "b2c3d4e5f6a789012345678901234567",
-                            "languages": ["en", "fr", "de"],
-                            "extension": ".exe",
+                            "name": "Placeholder - Saison 29 (v29.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v29.x",
+                            "size": "Unknown",
+                            "date": "2024-04-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
                             "sources": {
-                                "Official Site": {
-                                    "url": "https://reshade.me/download",
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s29/v29.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 30 (Chapter 5, S4)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 30 (v30.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v30.x",
+                            "size": "Unknown",
+                            "date": "2024-06-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s30/v30.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 31 (Chapter 6, S1)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 31 (v31.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v31.x",
+                            "size": "Unknown",
+                            "date": "2024-08-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s31/v31.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Saison 32 (Chapter 6, S2)": {
+                    "files": [
+                        {
+                            "name": "Placeholder - Saison 32 (v32.x)",
+                            "description": "Aucune version de build spécifique n'a été trouvée dans le document source pour cette saison.",
+                            "version": "v32.x",
+                            "size": "Unknown",
+                            "date": "2024-10-XX",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Source Primaire": {
+                                    "url": "https://placeholder.com/s32/v32.x",
+                                    "available": false
+                                }
+                            }
+                        }
+                    ]
+                },
+                "Non-Seasonal Builds": {
+                    "files": [
+                        {
+                            "name": "QAGame UE4.11 Build",
+                            "description": "Build d'Assurance Qualité utilisant Unreal Engine 4.11. (Lien disponible)",
+                            "version": "UE4.11",
+                            "size": "Unknown",
+                            "date": "Unknown",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": true,
+                            "sources": {
+                                "Download": {
+                                    "url": "https://buzzheavier.com/7x179izsqtmw",
+                                    "available": true
+                                }
+                            }
+                        },
+                        {
+                            "name": "QAGame UE5.2 Build",
+                            "description": "Build d'Assurance Qualité utilisant Unreal Engine 5.2. (Indisponible selon le document source)",
+                            "version": "UE5.2",
+                            "size": "Unknown",
+                            "date": "Unknown",
+                            "hash_md5": "Unknown",
+                            "languages": ["en"],
+                            "extension": "Unknown",
+                            "available": false,
+                            "sources": {
+                                "Download": {
+                                    "url": "Unavailable",
+                                    "available": false
+                                }
+                            }
+                        },
+                        {
+                            "name": "Main-CL-21501174 (Zip)",
+                            "description": "Build de la branche principale (récent) de Fortnite avec CL 21501174. (Liens disponibles)",
+                            "version": "CL-21501174",
+                            "size": "Unknown",
+                            "date": "Unknown",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": ".zip",
+                            "available": true,
+                            "sources": {
+                                "Download 1": {
+                                    "url": "https://buzzheavier.com/m6oig0w61h85",
                                     "available": true
                                 },
-                                "Alternative": {
-                                    "url": "https://mirror.reshade.com/latest",
+                                "Alternative (Zip)": {
+                                    "url": "https://r2.ploosh.dev/%2B%2BFortnite%2BMain-CL-21501174-PF-d62f.zip",
+                                    "available": true
+                                }
+                            }
+                        },
+                        {
+                            "name": "Main-CL-21452241 (Zip)",
+                            "description": "Build de la branche principale (récent) de Fortnite avec CL 21452241. (Lien disponible)",
+                            "version": "CL-21452241",
+                            "size": "Unknown",
+                            "date": "Unknown",
+                            "hash_md5": "Unknown",
+                            "languages": ["en", "fr"],
+                            "extension": ".zip",
+                            "available": true,
+                            "sources": {
+                                "Download (Zip)": {
+                                    "url": "https://r2.ploosh.dev/%2B%2BFortnite%2BMain-CL-21452241-PF-ed8a.zip",
                                     "available": true
                                 }
                             }
